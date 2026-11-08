@@ -1,0 +1,29 @@
+language: ko
+country: KR
+lookback_hours: 24
+max_articles: 30
+
+# 검색어는 필요에 따라 추가/삭제할 수 있습니다.
+topics:
+  - "반도체 산업"
+  - "삼성전자 반도체"
+  - "SK하이닉스"
+  - "HBM"
+  - "AI 반도체"
+  - "semiconductor"
+  - "Samsung Electronics semiconductor"
+  - "SK hynix"
+  - "AI chip"
+
+google_news:
+  hl: ko
+  gl: KR
+  ceid: KR:ko
+
+gdelt:
+  enabled: true
+  max_records_per_query: 75
+
+article:
+  max_text_chars: 18000
+  request_timeout_seconds: 20
